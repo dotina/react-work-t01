@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import Card from './../UI/Card';
+
 
 /**
  * @author Dickens
@@ -9,7 +11,7 @@ import './style.css';
 const Hero = (props)=>{
 	return(
 		<div>
-		Hero
+			<Card />
 		</div>
 	);
 }
